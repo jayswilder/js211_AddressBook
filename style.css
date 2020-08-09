@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+  padding: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 3px solid black;
+  margin: 10px;
+  overflow: hidden;
+  width: 725px;
+}
+
+.photos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 2px 0px 20px black;
+  margin-right: 15px;
+  padding: 15px;
+  width: 175px;
+}
+
+.contact-information {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.contact-information {
+  visibility: hidden;
+}
+
+button {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.invisible {
+  display: none;
+}
